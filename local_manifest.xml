@@ -4,11 +4,10 @@
     <remove-project name="CyanogenMod/android_frameworks_av" />
     <remove-project name="CyanogenMod/android_frameworks_base" />
     <remove-project name="CyanogenMod/android_frameworks_native" />
-    <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
     
+    <project path="frameworks/base" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
     <project path="frameworks/base" name="loxdegio/android_frameworks_base" revision="cm-11.0-camera-test" />
     <project path="frameworks/native" name="loxdegio/android_frameworks_native" revision="cm-11.0" />
-    <project path="packages/apps/Camera2" name="loxdegio/android_packages_apps_Camera2" revision="cm-11.0" />
 
     <!-- Local projects -->
     <project path="hardware/atheros/wlan" name="loxdegio/android_hardware_atheros_wlan" revision="cm-11.0" />
